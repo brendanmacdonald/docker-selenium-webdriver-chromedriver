@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  chrome:
+    image: selenium/standalone-chrome:latest
+    ports:
+      - '4444:4444'
